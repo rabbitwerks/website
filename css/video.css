@@ -1,0 +1,81 @@
+#livestream {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+.livestream {
+  color: white;
+  position: absolute;
+  margin-top: 5.3%;
+  margin-left: 48%;
+}
+
+.livestream:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: .3s
+}
+
+.livestream:after {
+  width: 100%;
+  transition: .3s;
+}
+
+.pos {
+  position: absolute;
+  margin-top: 55%;
+  margin-left: 25%;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  margin-top: 48%;
+  margin-left: 43%;
+}
+
+.text:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: .3s
+}
+
+.text:after {
+  width: 100%;
+  transition: .3s;
+}
+
+
+.pos2 {
+  position: absolute;
+  margin-top: 100%;
+  margin-left: 25%;
+}
+
+.text2 {
+  color: white;
+  position: absolute;
+  margin-top: 93%;
+  margin-left: 33%;
+}
+
+.text2:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: .3s
+}
+
+.text2:after {
+  width: 100%;
+  transition: .3s;
+}

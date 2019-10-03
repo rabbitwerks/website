@@ -1,0 +1,10 @@
+html {
+      scroll-behavior: smooth;
+    }
+
+.top {
+  position: fixed;
+  z-index: 2;
+  left: 96%;
+  top: 50%;
+}

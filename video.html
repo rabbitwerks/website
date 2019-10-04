@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="css/logo.css">
     <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/top.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="scripts/scroll.js"></script>
     <title>CS:GO | Videos</title>
   </head>
   <body>
@@ -28,7 +25,7 @@
     </header>
 
     <div class="top">
-          <a href="#top"><img  src="img/top.png" alt="top" width="80%" height="80%"></a>
+          <a href="#top"><img id="appear" src="img/top.png" alt="top" width="80%" height="80%"></a>
     </div>
 
     <h1 class="livestream">Live Stream</h1>
@@ -69,5 +66,16 @@
       picture-in-picture"
       allowfullscreen>
     </iframe>
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+      if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        document.getElementById("appear").className = "";
+      } else {
+        document.getElementById("appear").className = "top";
+      }
+    }
+    </script>
   </body>
 </html>
